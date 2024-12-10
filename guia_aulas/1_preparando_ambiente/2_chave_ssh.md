@@ -1,0 +1,12 @@
+# Configurando chave SSH do Git no GitHub
+- Pesquise por GIT GUI
+    - Você pode clicar com o botão direito e haverá uma atalho para abri-lo diretamente também
+- Clique em "help"
+- Escolha a opção "Show SSH KEY"
+- Caso você nunca tenha instalado uma chave SSH abrirá uma nova página em branco
+- Clique em "Generate Key" e depois em "Copy To Clipboard"
+- Abra o GitHub (você já deve ter criado uma conta)
+- Clique na sua foto de perfil no canto direto superior e escolha a opção "Settings"
+    - https://github.com/settings/profile
+- Vá em "SSH and GPG Keys"
+- Clique em New SSH key e configure sua chave criada
