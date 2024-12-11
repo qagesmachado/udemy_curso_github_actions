@@ -1,6 +1,7 @@
 # Sintaxe de variáveis
 
-- ${{ github.actor} }       --> Nome de usuário: qagesmachado                   
+- ${{  }}                   --> Sintaxe de variáveis
+- ${{ github.actor }}       --> Nome de usuário: qagesmachado                   
 - ${{ github.event_name }}  --> Trigger [on]: push, cron, workflow_dispatch, etc
 - ${{ runner.os }}          --> Sistema operacional configurado em “runs-on”
 - ${{ github.ref }}         --> Branch de referência
