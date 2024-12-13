@@ -5,11 +5,14 @@
     É a solicitação para merge do código. Durante o pull request pode acontecer a revisão de código levando a alteração de parte do código proposto.
     
 ## Exemplos
-- 1_basic_on_push.yml
-- 2_branch_on_push.yml
-- 3_branch_ignore_on_push.yml
-- 4_path_on_push.yml
-- 5_on_push.yml
+- 1_basic_on_pull_request.yml
+- 2_branch_on_pull_request.yml
+- 3_type_on_pull_request.yml
+- 4_on_pull_request.yml
+
+Opções de "paths" e "branches-ignore" também pode ser usadas aqui.
 
 ## Observações importantes
-- "branches" e "branches-only" não podem ser configurados no mesmo arquivo .yml
+- Para testar você pode criar outra branch local fazer um commmit e depois abrir o Pull Request via GitHub
+
+- Para testar você pode fazer uma alteração diretamente no GitHub e na hora de salvar escolha a opção de criar outra branch e abrir PR.

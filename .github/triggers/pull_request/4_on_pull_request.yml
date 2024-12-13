@@ -1,0 +1,20 @@
+name: GitHub Actions - Pull Request General
+run-name: Running - ${{ github.event_name }}
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - closed
+    branches:
+      - master
+    paths:
+      - '**.txt'
+jobs:
+  on-push:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Comentário
+        run: |
+          echo "Comentário PULL REQUEST WORKFLOW"
+

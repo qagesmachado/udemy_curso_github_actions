@@ -1,0 +1,16 @@
+name: GitHub Actions - Pull - Types Template
+run-name: Running - ${{ github.event_name }}
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - closed
+jobs:
+  on-push:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Comentário
+        run: |
+          echo "Comentário PULL REQUEST WORKFLOW - Types"
+

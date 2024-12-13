@@ -1,13 +1,10 @@
-name: GitHub Actions - Push Template
+name: GitHub Actions - Worflow dispatch Template Básico
 run-name: Running - ${{ github.event_name }}
-on:
-  push:
-    paths:
-      - '**.robot'
+on: [workflow_dispatch]
 jobs:
   on-push:
     runs-on: ubuntu-20.04
     steps:
       - name: Comentário
         run: |
-          echo "Comentário PUSH WORKFLOW - Path"
+          echo "Comentário Worflow dispatch - Basic"
