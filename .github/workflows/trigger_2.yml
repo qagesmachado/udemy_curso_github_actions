@@ -1,5 +1,5 @@
 name: GitHub Actions - Trigger 2
-run-name: Running - ${{ github.event_name }}
+run-name: Running - Trigger 2
 on: [push, workflow_dispatch]
 jobs:
   on-push:

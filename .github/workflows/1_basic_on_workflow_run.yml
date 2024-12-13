@@ -1,5 +1,5 @@
-name: GitHub Actions - Workflo run Basic Template
-run-name: Running - ${{ github.event_name }}
+name: GitHub Actions - Workflow run Basic Template
+run-name: Running - Workflow run Basic Template
 on: 
   workflow_run:
     workflows: [GitHub Actions - Trigger 1]
