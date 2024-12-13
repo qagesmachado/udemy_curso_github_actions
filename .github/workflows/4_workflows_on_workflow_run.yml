@@ -2,7 +2,9 @@ name: GitHub Actions - Workflo run Basic Template
 run-name: Running - ${{ github.event_name }}
 on: 
   workflow_run:
-    workflows: [GitHub Actions - Trigger 1]
+    workflows: [GitHub Actions - Trigger 1, GitHub Actions - Trigger 2]
+    types: [completed]
+    branches: [main]
 jobs:
   on-push:
     runs-on: ubuntu-20.04

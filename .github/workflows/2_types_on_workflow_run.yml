@@ -3,6 +3,10 @@ run-name: Running - ${{ github.event_name }}
 on: 
   workflow_run:
     workflows: [GitHub Actions - Trigger 1]
+    types: [completed]
+    # types: [requested]
+    # types: [in_progress]
+    # types: [completed, requested, in_progress]
 jobs:
   on-push:
     runs-on: ubuntu-20.04
