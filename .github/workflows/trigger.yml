@@ -1,4 +1,4 @@
-name: GitHub Actions - Push Template Básico
+name: GitHub Actions - Trigger
 run-name: Running - ${{ github.event_name }}
 on: [push]
 jobs:
@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: Comentário
         run: |
-          echo "Comentário PUSH WORKFLOW - Basic"
+          echo "Trigger finalizado"

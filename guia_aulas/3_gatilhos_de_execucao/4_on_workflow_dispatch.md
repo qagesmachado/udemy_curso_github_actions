@@ -6,10 +6,10 @@
     
 ## Exemplos
 - 1_basic_on_workflow_dispatch.yml
-- 2_branch_on_pull_request.yml
-- 3_type_on_pull_request.yml
-- 4_on_pull_request.yml
-
+- 2_input_choice_on_workflow_dispatch.yml
+- 3_input_string_on_workflow_dispatch.yml
+- 4_bool_string_on_workflow_dispatch.yml
+- 5_on_workflow_dispatch.yml
 
 ## Observações importantes
 - Para executa-lo você precisar entrar no GitHub Action e acioná-lo manualmente
