@@ -1,4 +1,4 @@
-name: GitHub Actions - Trigger
+name: GitHub Actions - Workflo run Basic Template
 run-name: Running - ${{ github.event_name }}
 on: 
   workflow_run:
