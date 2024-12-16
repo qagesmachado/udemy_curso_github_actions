@@ -3,7 +3,9 @@ run-name: Running - ${{ github.event_name }}
 on:
   push:
     branches:
+      - master
       - develop
+      - 'release/**'
 jobs:
   on-push:
     runs-on: ubuntu-20.04
