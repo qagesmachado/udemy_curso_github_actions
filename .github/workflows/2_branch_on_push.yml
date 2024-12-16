@@ -3,9 +3,7 @@ run-name: Running - ${{ github.event_name }}
 on:
   push:
     branches:
-    - develop
-    - main
-    - 'release/**'
+      - develop
 jobs:
   on-push:
     runs-on: ubuntu-20.04
@@ -13,4 +11,3 @@ jobs:
       - name: Comentário
         run: |
           echo "Comentário PUSH WORKFLOW - branch"
-

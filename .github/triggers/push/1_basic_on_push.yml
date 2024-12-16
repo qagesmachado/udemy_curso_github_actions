@@ -1,11 +1,10 @@
-name: Github actions - Push Template Basic
+name: GitHub Actions - Push Template Básico
 run-name: Running - ${{ github.event_name }}
 on: [push]
-
 jobs:
   on-push:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Comentário
         run: |
-          echo "Comentário do workflow PUSH" 
+          echo "Comentário PUSH WORKFLOW - Basic"
