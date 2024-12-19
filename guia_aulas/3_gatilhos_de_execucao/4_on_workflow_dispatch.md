@@ -8,7 +8,7 @@
 - 1_basic_on_workflow_dispatch.yml
 - 2_input_choice_on_workflow_dispatch.yml
 - 3_input_string_on_workflow_dispatch.yml
-- 4_bool_string_on_workflow_dispatch.yml
+- 4_input_bool_on_workflow_dispatch.yml
 - 5_on_workflow_dispatch.yml
 
 ## Observações importantes

@@ -7,15 +7,16 @@ on:
         description: Selecione a tag
         type: choice
         options:
-        - tag_1
-        - tag_2
-        - tag_3
+          - tag_1
+          - tag_2
+          - tag_3
         default: 'tag_1'
         required: true
+
 jobs:
   on-workflow_dispatch:
     runs-on: ubuntu-20.04
     steps:
       - name: Comentário
         run: |
-          echo "Comentário Worflow dispatch - Tag: ${{inputs.tags}}"
+          echo "Comentário Worflow dispatch - ${{inputs.tags}}"
